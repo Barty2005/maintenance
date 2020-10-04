@@ -1,0 +1,108 @@
+.table {
+  display: block;
+}
+.non-table {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 50px) {
+  .table {
+    display: none;
+  }
+  .non-table {
+    display: block;
+  }
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: grey;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
+}
+
+canvas {
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  padding: 0;
+}
+
+footer {
+  font-size: 1rem;
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  padding: 50px 50px 0;
+  text-align: center;
+}
+
+h3 {
+  padding: 25px 50px 10px;
+  text-align: center;
+}
+
+hr {
+  width: 75%;
+}
+
+p {
+  padding: 0 20%;
+  text-align: center;
+}
+
+ul {
+  line-height: 40px;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+.footer-table {
+  margin: 0 auto;
+  width: 25%;
+}
+
+.footer-cell {
+  text-align: center;
+  width: 12%;
+}
+
+.header {
+  background-image: url("Images/background.jpg");
+  background-position: center;
+  color: white;
+  font-size: 1.5rem;
+  height: 50vh;
+  margin: auto;
+  padding: 12.5% 0;
+  width: 100%;
+}
+
+.table {
+  margin: 5% 5%;
+  width: 90%;
+}
+
+.table-cell {
+  padding: 100px;
+  text-align: center;
+  width: 40%;
+}
